@@ -14,7 +14,7 @@ Dominar la estructura semántica de HTML, comprendiendo etiquetas, jerarquía, a
 - Enlaces, imágenes y multimedia
 - Buenas prácticas y accesibilidad
 
-## 🛠️ Archivos incluidos
+## Archivos incluidos
 
 - `index.html`: estructura principal del sitio
 - `formulario.html`: ejemplo de formulario completo
