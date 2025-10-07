@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+}
+
+ol{
+    list-style: none;
+    counter-reset: contador; /*Indicamos que vamos a tener un contador que se va a iniciar en 0*/
+}
+
+ol li{
+    counter-increment: contador; /*Indicamos que el contador va a ir incrementado*/
+}
+
+/*Con el selector before podemos agregar una palabra que se muestre antes de la lista*/
+ol li::before{
+    content: 'Curso ' counter(contador) ') '; /*Llamamos al contador*/
+    color: blue;
+}
+
+/*Con el selector after podemos agregar una palabra que se muestre despues de la lista*/
+ol li::after{
+    content: '.';
+}
+
+/*
+ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    overflow: hidden; Para mostrar la lista como un bloque independiente
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+
+Aplica para solo los valores de li con referencia "a" osea que son links
+li a{
+    display: block; Para hacer que los elementos se desplieguen como un bloque
+    color: aqua;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none; Quitar subrayado
+}
+
+Para cambiar el color al pasar con el mouse por sobre el texto
+li a:hover{
+    background-color: rgb(196, 89, 142);
+}
+*/

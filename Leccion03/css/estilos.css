@@ -1,0 +1,43 @@
+h1{
+    color: #7809e0;
+}
+
+/*Para simular un boton
+a:link, a:visited{
+    background-color: #12bd02;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: black;
+}
+/*
+
+
+
+/* Estado de link por defaul, sin haberle dado click
+a:link{
+    color: #e76f51;
+    text-decoration: none; /* Para quitar el subrayado al texto del link
+}
+
+Aplica a elementos que ya hemos dado click
+a:visited{
+    color: #3a5a40;
+    text-decoration: none; /* Para quitar el subrayado al texto del link
+}
+
+Cuando nos ponemos encima del link
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+Cambia de color al pulsar click sobre el link
+a:active{
+    color: #e63946;
+    text-decoration: underline;
+}
+/*

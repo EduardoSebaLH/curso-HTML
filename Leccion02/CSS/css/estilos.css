@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+p{
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    border: 10px solid powderblue;
+    
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    No es Necesario ponerlos por separado, se pueden indicar todos juntos como se muestra acontinuacion, el orden
+    es el mismo.
+    */
+    margin: auto 50px; /* ªSe centra la caja de forma horizontal los pixeles los toma de lado izq y der*/
+    text-align: center; /* ªSe utiliza para centrar el texto*/
+}

@@ -1,0 +1,49 @@
+html{
+    height: 100%; /*Para que abarque toda la pagina*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#03045e,#0077b6); /*Para insertar un degradado de colores*/
+}
+
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0,0,0,.5); /*Aplicando color negro con 50% de transparencia*/
+    border-radius: 10px; /*Para redonder las esquinas del form*/
+}
+
+.contenedor h2{ /*Para ir a la clase contenedor y aplicar unicamente a los elementos h2*/
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #0077b6;
+    text-align: center;
+}
+
+.contenedor .elemento label{ /*Ir a la clase contenedor, despues ir a la clase elemento y aplicar solo a las etiquetas label*/
+    color: white;
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #00b4d8;
+    border: none;
+    letter-spacing: 5px; /*Para dar un espacio a las letras del boton*/
+    text-transform: uppercase; /*Para transformar texto a mayusculas*/
+    cursor: pointer; /*Para que el cursor cambia al posicionarnos en el icono*/
+    padding: 15px;
+    margin-top: 30px;
+}

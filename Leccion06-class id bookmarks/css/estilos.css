@@ -1,0 +1,31 @@
+/*Esto aplica para todo el estilo de la pagina a no ser que se defina de alguna forma distinta en una 
+etiqueta en particular
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+#titulo_principal{
+    color: rgb(23, 23, 170);
+    text-align: center;
+    margin: 15px;
+}
+
+h2{
+    color: rgb(32, 117, 143);
+}
+
+p{
+    color: aqua;
+}
+
+.tarjeta{
+    border: 10px solid rgb(22, 141, 28);
+    background-color: rgb(33, 131, 77);
+    text-align: center;
+    margin: 10px 200px;
+    padding: 15px;
+}
+.titulo{
+    color: #3f37c9;
+}

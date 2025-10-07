@@ -1,0 +1,36 @@
+table{
+    width: 100%; /*Para utilizar el 100% del espacio disponible en la pagina*/
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse; /*Para que no haya espacios en las lineas de la tabla*/
+    /*border-spacing: 5px; Para hacer mas grandes los bordes de la tabla*/
+    padding: 5px;
+}
+
+caption{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px; /*Tamaño de la fuente*/
+    line-height: 70px; /*Espacio que queda entre el titulo y la tabla*/
+}
+
+th{
+    color: beige;
+    background-color: blue;
+}
+
+/*Para trabajar solo con los reglones pares (even)*/
+tr:nth-child(even){
+    background-color: brown;
+}
+
+/*Para trabajar solo con los reglones impares (odd)*/
+tr:nth-child(odd){
+    background-color: aqua;
+}
+
+
+td{
+    text-align: center;
+}
